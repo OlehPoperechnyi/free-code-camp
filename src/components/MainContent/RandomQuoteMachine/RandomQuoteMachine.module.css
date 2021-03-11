@@ -1,0 +1,45 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RandomQuoteMachine {
+    width: 600px;
+    min-height: 300px;
+    display: grid;
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 100px 1fr 160px;
+    grid-template-areas:
+        "tweetQuote . ."
+        "textQuot textQuot textQuot"
+        "newQuote author author";
+    background-color: olivedrab;
+    border-radius: 20px;
+    padding: 20px;
+}
+.RandomQuoteMachine__goBack {
+    position: fixed;
+    top: 80px;
+    left: 40px;
+}
+.RandomQuoteMachine__textQuot {
+    grid-area: textQuot;
+
+}
+.RandomQuoteMachine__author {
+    grid-area: author;
+}
+.RandomQuoteMachine__newQuote {
+    font-size: small;
+    align-self: center;
+    justify-self: center;
+    width: 90px;
+    height: 40px;
+    grid-area: newQuote;
+}
+.RandomQuoteMachine__tweetQuote {
+    grid-area: tweetQuote;
+}

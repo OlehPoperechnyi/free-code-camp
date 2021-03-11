@@ -1,0 +1,20 @@
+.App {
+  min-height: 100vh;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 1fr 40px;
+}
+
+.App__header {
+
+}
+.App__mainContent {
+
+}
+.App__footer {
+
+}
+
+
+
