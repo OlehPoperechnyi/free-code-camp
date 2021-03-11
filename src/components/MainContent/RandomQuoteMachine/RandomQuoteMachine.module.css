@@ -1,9 +1,14 @@
+
 .wrapper {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.wrapper a {
+    text-decoration: none;
 }
 
 .RandomQuoteMachine {
@@ -16,30 +21,52 @@
         "tweetQuote . ."
         "textQuot textQuot textQuot"
         "newQuote author author";
-    background-color: olivedrab;
-    border-radius: 20px;
+    background-color: white;
     padding: 20px;
 }
 .RandomQuoteMachine__goBack {
+    background-color: white;
+    border-radius: 5px;
     position: fixed;
-    top: 80px;
-    left: 40px;
+    top: 5px;
+    left: 60px;
 }
 .RandomQuoteMachine__textQuot {
+    font-family: "Arial Black", sans-serif;
+    font-size: large;
     grid-area: textQuot;
-
+    padding: 10px;
 }
 .RandomQuoteMachine__author {
+    align-self: center;
+    justify-self: self-end;
+    padding-right: 20px;
     grid-area: author;
 }
 .RandomQuoteMachine__newQuote {
+    font-family: "Arial Black", sans-serif;
     font-size: small;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
     align-self: center;
     justify-self: center;
-    width: 90px;
-    height: 40px;
     grid-area: newQuote;
 }
+
 .RandomQuoteMachine__tweetQuote {
+    font-family: "Arial Black", sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    align-self: center;
+    justify-self: center;
     grid-area: tweetQuote;
 }

@@ -1,3 +1,10 @@
 .Header {
+    height: 100%;
     background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header a {
+    text-decoration: none;
 }

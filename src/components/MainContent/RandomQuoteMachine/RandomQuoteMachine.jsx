@@ -1,24 +1,39 @@
 import style from "./RandomQuoteMachine.module.css"
 import NavButton from "../../NavButton/NavButton";
 
-const RandomQuoteMachine = ({quote, author}) => {
+const RandomQuoteMachine = ({quote, author, textColor, backgroundColor, newQuote}) => {
 
-    return <section id={"wrapper"} className={style.wrapper}>
+    return <section id={"wrapper"}
+                    style={backgroundColor}
+                    className={style.wrapper}>
+
         <div className={style.RandomQuoteMachine__goBack}>
             <NavButton text={"Back"} to={"/"}/>
         </div>
+
         <article className={style.RandomQuoteMachine} id={"quote-box"}>
-            <span id={"text"} className={style.RandomQuoteMachine__textQuot}>
+            <span id={"text"}
+                  style={textColor}
+                  className={style.RandomQuoteMachine__textQuot}>
                 <p>{quote}</p>
             </span>
-            <div id={"author"} className={style.RandomQuoteMachine__author}>
+            <span id={"author"}
+                  style={textColor}
+                  className={style.RandomQuoteMachine__author}>
                 {author}
-            </div>
-            <button id={"new-quote"} className={`${style.RandomQuoteMachine__newQuote} btn btn-success`}>
-                new-quote
+            </span>
+            <button id={"new-quote"}
+                    style={backgroundColor}
+                    className={`${style.RandomQuoteMachine__newQuote}`}
+                    onClick={newQuote}>
+                New quote
             </button>
-            <a href={"https://twitter.com/intent/tweet"} id="tweet-quote"
-               className={style.RandomQuoteMachine__tweetQuote}>tweet-quote</a>
+            <a href={'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
+                encodeURIComponent('"' + quote + '" ' + author)
+            }
+               id="tweet-quote"
+               style={backgroundColor}
+               className={style.RandomQuoteMachine__tweetQuote}>T</a>
         </article>
     </section>
 }
