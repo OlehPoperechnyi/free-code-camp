@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/free-code-camp/static/css/main.d13212e5.chunk.css",
-    "main.js": "/free-code-camp/static/js/main.0f7ee1bc.chunk.js",
-    "main.js.map": "/free-code-camp/static/js/main.0f7ee1bc.chunk.js.map",
-    "runtime-main.js": "/free-code-camp/static/js/runtime-main.4f7b43ca.js",
-    "runtime-main.js.map": "/free-code-camp/static/js/runtime-main.4f7b43ca.js.map",
+    "main.css": "/free-code-camp/static/css/main.f1014205.chunk.css",
+    "main.js": "/free-code-camp/static/js/main.cf3cfa7c.chunk.js",
+    "main.js.map": "/free-code-camp/static/js/main.cf3cfa7c.chunk.js.map",
+    "runtime-main.js": "/free-code-camp/static/js/runtime-main.d5ccd28d.js",
+    "runtime-main.js.map": "/free-code-camp/static/js/runtime-main.d5ccd28d.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/free-code-camp/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.8dcf6c17.chunk.js": "/free-code-camp/static/js/2.8dcf6c17.chunk.js",
-    "static/js/2.8dcf6c17.chunk.js.map": "/free-code-camp/static/js/2.8dcf6c17.chunk.js.map",
-    "static/js/3.14b62150.chunk.js": "/free-code-camp/static/js/3.14b62150.chunk.js",
-    "static/js/3.14b62150.chunk.js.map": "/free-code-camp/static/js/3.14b62150.chunk.js.map",
+    "static/js/2.5b66cb79.chunk.js": "/free-code-camp/static/js/2.5b66cb79.chunk.js",
+    "static/js/2.5b66cb79.chunk.js.map": "/free-code-camp/static/js/2.5b66cb79.chunk.js.map",
+    "static/js/3.db4020b1.chunk.js": "/free-code-camp/static/js/3.db4020b1.chunk.js",
+    "static/js/3.db4020b1.chunk.js.map": "/free-code-camp/static/js/3.db4020b1.chunk.js.map",
     "index.html": "/free-code-camp/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/free-code-camp/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.d13212e5.chunk.css.map": "/free-code-camp/static/css/main.d13212e5.chunk.css.map",
-    "static/js/2.8dcf6c17.chunk.js.LICENSE.txt": "/free-code-camp/static/js/2.8dcf6c17.chunk.js.LICENSE.txt"
+    "static/css/main.f1014205.chunk.css.map": "/free-code-camp/static/css/main.f1014205.chunk.css.map",
+    "static/js/2.5b66cb79.chunk.js.LICENSE.txt": "/free-code-camp/static/js/2.5b66cb79.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f7b43ca.js",
+    "static/js/runtime-main.d5ccd28d.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.8dcf6c17.chunk.js",
-    "static/css/main.d13212e5.chunk.css",
-    "static/js/main.0f7ee1bc.chunk.js"
+    "static/js/2.5b66cb79.chunk.js",
+    "static/css/main.f1014205.chunk.css",
+    "static/js/main.cf3cfa7c.chunk.js"
   ]
 }
