@@ -1,0 +1,25 @@
+.MarkdownPreviewer {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.MarkdownPreviewer__goBack {
+    background-color: white;
+    border-radius: 5px;
+    position: fixed;
+    top: 5px;
+    left: 60px;
+}
+
+.MarkdownPreviewer__editor {
+    outline: none;
+    resize: none;
+    border: none;
+    padding: 20px;
+    align-self: stretch;
+}
+.MarkdownPreviewer__preview {
+    align-self: stretch;
+}
