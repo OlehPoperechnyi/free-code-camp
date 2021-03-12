@@ -22,5 +22,6 @@
     align-self: stretch;
 }
 .MarkdownPreviewer__preview {
+    padding: 20px;
     align-self: stretch;
 }
